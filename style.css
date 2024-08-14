@@ -286,6 +286,51 @@ font-size: 28px;
     bottom: -30px;
 }
 
+/* career section */
+.career{
+    min-height: 500px;
+    padding: 30px;
+    background-color: rgb(255, 66, 165);
+}
+.career-box{
+    max-width: 80%;
+    
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid green;
+}
+.career-left, .career-right{
+    width: 40%;
+}
+.career-left{
+    color: white;
+}
+.career-left h4{
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: white;
+}
+.career-left p{
+    color: white;
+}
+.career-right img{
+    width: 100%;
+}
+.div-box{
+    margin-top: 20px;
+    
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.div-box p{
+    font-size: 12px;
+}
+.div-2{
+    text-align: right;
+}
+
 
 
 
