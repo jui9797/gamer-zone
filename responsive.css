@@ -75,5 +75,79 @@
 .gamer-right h4{
    font-size: 16px; 
 }
+.card-box{
+    flex-direction: column;
+}
+.card{
+    width: 90%;
+    margin: 20px auto;
+}
+.card img{
+    width: 100%;
+}
+/* hover effect */
+.watch-now{
+    display: none;
+    top: 10%;
+    left: 35%;
+}
+.watch-now span{
+    font-size: 30px;
+    color: white;
+}
+.watch-now p{
+    color: rgb(195, 83, 83);
+}
+.card:hover .watch-now, .card:hover img{
+    display: block;
+    filter: brightness(50%);
+}
+
+
+/* play section */
+.play{
+    flex-direction: column;
+}
+.play-left{
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+.play-right{
+    width: 80%;
+    margin-right: 0 ;
+    /* border: 2px solid black; */
+}
+.cat img{
+    width: 110px;
+    height: 110px;
+}
+.cat{
+   bottom: -150px;
+   left: -35px;
+}
+
+.play-1{
+    flex-direction: column-reverse;
+}
+.play1-left, .play1-right{
+    width: 80%;
+    margin: 0 auto;
+}
+.play1-right h1{
+font-size: 30px;
+}
+.play1-right{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.cat-1{
+    width: 120px;
+    height: 120px;
+    right: 40px;
+    left: 185px;
+    bottom: -50px;
+}
+
     
 }

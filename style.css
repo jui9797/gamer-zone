@@ -85,6 +85,7 @@ margin-right: 0;
    color: transparent;
    font-size: 55px;
    font-weight: 800;
+   
 }
 .header-right{
     /* border: 2px solid brown; */
@@ -152,3 +153,157 @@ margin-right: 0;
     font-size: 20px;
     font-weight: 700;
 }
+.online{
+    max-width: 80%;
+    margin: 40px auto;
+    /* border: 2px solid blue; */
+    text-align: center;
+}
+.online-h1{
+    background-image: linear-gradient(#F948B2, #8758F1);
+    background-clip: text;
+    color: transparent;
+    font-size: 36px;
+    font-weight: 700;  
+}
+.online h1{
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 30px;  
+}
+.card-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    /* position: relative; */
+    
+}
+.card{
+    width: 24%;
+    text-align: left;
+    position: relative;
+}
+.card-box img{
+    width: 100%;
+}
+/* hover effect */
+.watch-now{
+    text-align: center;
+    /* border: 2px solid blue; */
+     position: absolute;
+    top:40%;
+    left: 35%;
+    
+    display: none;
+}
+.watch-now span{
+    font-size: 30px;
+    color: white;
+}
+.watch-now p{
+    color: rgb(195, 83, 83);
+}
+
+.card:hover .watch-now, .card:hover img{
+display: block;
+filter: brightness(50%);
+}
+
+/* play instanty */
+.play{
+    max-width: 80%;
+    
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid blue; */
+}
+.play-left{
+    width: 40%;
+    /* border: 2px solid blue; */
+    text-align: right;
+}
+.play-left h1{
+    font-size: 32px;
+font-weight: 700;
+}
+.play-left p{
+    margin-top: 10px;
+}
+.play-right{
+    width: 40%;
+    
+    position: relative;
+}
+.play-right img{
+    width: 100%;
+}
+.play-right .cat{
+    width: 200px;
+    height: 200px;
+}
+.cat{
+   position: absolute;
+   bottom: -50px; 
+   left: -70px;
+}
+
+/* play-1 */
+.play-1{
+    max-width: 80%;
+    
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid blue; */
+}
+.play1-left{
+ width: 40%;
+ /* border: 2px solid green; */
+ position: relative;   
+}
+.play1-left img{
+    width: 100%;
+}
+.play1-right{
+width: 35%;
+text-align: left;
+font-size: 28px;
+/* border: 2px solid green; */
+
+}
+.play-right p{
+    margin-top: 80px;
+}
+.cat-1{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: -10px;
+    left: 350px;
+    bottom: -30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .footer{
+    background-color: rgb(11, 2, 35);
+}
+.footer-container{
+    width: 40%;
+    margin: 40px auto;
+} */
