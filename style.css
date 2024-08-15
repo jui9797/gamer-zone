@@ -298,7 +298,7 @@ font-size: 28px;
     margin: 20px auto;
     display: flex;
     justify-content: space-between;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 .career-left, .career-right{
     width: 40%;
@@ -314,13 +314,22 @@ font-size: 28px;
 .career-left p{
     color: white;
 }
+.btn{
+    background-color: white;
+    color: #F948B2;
+    font-weight: 700;
+    padding: 15px 25px 15px 25px;
+    border-radius: 36px;
+    border: none;
+    margin-top: 20px;
+}
 .career-right img{
     width: 100%;
 }
 .div-box{
     margin-top: 20px;
     
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     justify-content: space-between;
 }
@@ -331,6 +340,32 @@ font-size: 28px;
     text-align: right;
 }
 
+/* flex wrap */
+.flex-wrap{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 50px 20px 50px 20px;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+.flex-child{
+    min-width: 180px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+
+    
+}
+.flex-child:hover{
+    outline:1px solid #F948B2;
+}
+.flex-child img{
+    width: 35px;
+}
 
 
 
@@ -345,10 +380,48 @@ font-size: 28px;
 
 
 
-/* .footer{
+
+ .footer{
     background-color: rgb(11, 2, 35);
+    padding: 40px;
 }
 .footer-container{
     width: 40%;
+    font-size: 30px;
+    color: white;
+    /* border: 2px solid green; */
     margin: 40px auto;
-} */
+    text-align: center;
+} 
+.span-g{
+    color: #F948B2;
+}
+.heading{
+    display: flex;
+    text-align: center;
+    margin-left: 180px;
+}
+.para{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.para p{
+    color: white;
+}
+.icon{
+    font-size: 25px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.policy{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    justify-content: space-around;
+}
+.policy p{
+    color: rgba(255, 255, 255, 0.6);
+}
